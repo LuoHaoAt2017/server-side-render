@@ -18,7 +18,7 @@ module.exports = {
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "build"),
-    // libraryTarget: "commonjs",
+    libraryTarget: "umd",
   },
   devtool: "source-map",
   module: {
